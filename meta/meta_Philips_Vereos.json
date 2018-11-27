@@ -1,0 +1,66 @@
+{
+    "results": {
+        "Timing Resolution": {
+            "units": "ps", 
+            "constraint_minlowhighmax": [0, 0, 450, 525],
+            "display_name": "Timing Resolution", 
+            "description": "Timing resolution of the system", 
+            "display_level": 1
+        }, 
+        "AcquisitionDateTime": {
+            "constraint_period": 3, 
+            "units": "", 
+            "display_level": 2, 
+            "description": "date and time of acquisition", 
+            "display_name": "Date of acquisition"
+        }, 
+        "System Initialization": {
+            "units": "", 
+            "display_level": 1, 
+            "display_name": "System Initialization", 
+            "description": "System Initialization", 
+            "constraint_equals": "PASSED"
+        }, 
+        "Uniformity Test": {
+            "units": "", 
+            "display_level": 1, 
+            "display_name": "Uniformity Test", 
+            "description": "Uniformity Test", 
+            "constraint_equals": "PASSED"
+        }, 
+        "Energy Test": {
+            "units": "", 
+            "display_level": 1, 
+            "display_name": "Energy Test", 
+            "description": "Energy Test", 
+            "constraint_equals": "PASSED"
+        }, 
+        "Timing Test": {
+            "units": "", 
+            "display_level": 1, 
+            "display_name": "Timing Test", 
+            "description": "Timing Test", 
+            "constraint_equals": "PASSED"
+        },
+        "Checking Sensors": {
+            "units": "", 
+            "display_level": 1, 
+            "display_name": "Checking Sensors", 
+            "description": "Checking Sensors", 
+            "constraint_equals": "PASSED"
+        }, 
+        "Bad Pixels": {
+            "units": "pixels", 
+            "display_level": 1, 
+            "display_name": "Number of bad pixels", 
+            "description": "Number of bad pixels", 
+            "constraint_minlowhighmax": [0, 0, 192, 320]
+        }
+    }, 
+    "metaformat": "20180910", 
+    "comments": {
+        "description": "meta.json for PDFreader", 
+        "author": "Jaap Groen, OLVG", 
+        "creator": "custom"
+    }
+}

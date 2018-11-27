@@ -1,0 +1,66 @@
+{
+    "actions": {
+        "acqdatetime": {
+            "params": {}, 
+            "filters": {}
+        }, 
+        "pdf_series": {
+            "params": {}, 
+            "filters": {}, 
+            "texts": [
+                {
+                    "pre": "System Initialization:", 
+                    "type": "string", 
+                    "post": "\r", 
+                    "name": "System Initialization"
+                }, 
+                {
+                    "pre": "Checking Sensors:", 
+                    "type": "string", 
+                    "post": "\r", 
+                    "name": "Checking Sensors"
+                }, 
+                {
+                    "pre": "Timing Test:", 
+                    "type": "string", 
+                    "post": "\r", 
+                    "name": "Timing Test"
+                }, 
+                {
+                    "pre": "Energy Test:", 
+                    "type": "string", 
+                    "post": "\r", 
+                    "name": "Energy Test"
+                }, 
+                {
+                    "pre": "Timing Resolution:", 
+                    "type": "float", 
+                    "post": "-ps", 
+                    "name": "Timing Resolution"
+                }, 
+                {
+                    "pre": "Uniformity Test:", 
+                    "type": "string", 
+                    "post": "\r", 
+                    "name": "Uniformity Test"
+                }, 
+                {
+                    "pre": "Bad pixel count:", 
+                    "type": "float", 
+                    "post": ", Bad pixel due", 
+                    "name": "Bad Pixels"}
+            ]
+        }, 
+        "header_series": {
+            "params": {}, 
+            "tags": {}, 
+            "filters": {}
+        }
+    }, "comments": {
+        "params": {}, 
+        "version": "20181126", 
+        "author": "Jaap Groen, OLVG", 
+        "description": "for Philips Vereos Daily QC report"
+    },
+    "cfgformat": "20180910"
+}

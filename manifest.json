@@ -1,0 +1,19 @@
+{
+    "info": {
+        "dbversion": "20180209",
+        "magic": "wad-qc-factory"
+    },
+    "module": {
+        "name": "PDFreader",
+        "description": "Generic pdf document parser",
+        "executable": "PDFreader.py",
+        "code": "python",
+        "dependencies": [
+            "pillow",
+            "numpy",
+            "pydicom",
+            "scipy",
+            "matplotlib"
+        ]
+    }
+}
